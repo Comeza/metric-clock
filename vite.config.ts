@@ -4,5 +4,6 @@ import tsConfig from "vite-tsconfig-paths"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/metric-clock/",
   plugins: [svelte(), tsConfig()],
 })
